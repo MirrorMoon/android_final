@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.leafmaple.androidtraining.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_pythonFragment"
+            app:destination="@id/pythonFragment" />
+        <action
+            android:id="@+id/action_navigation_home_to_webFragment"
+            app:destination="@id/webFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_chart"
+        android:name="com.leafmaple.androidtraining.ui.chart.ChartFragment"
+        android:label="@string/title_chart"
+        tools:layout="@layout/fragment_chart" >
+        <action
+            android:id="@+id/action_navigation_chart_to_lineFragment"
+            app:destination="@id/lineFragment" />
+        <action
+            android:id="@+id/action_navigation_chart_to_barFragment"
+            app:destination="@id/barFragment" />
+        <action
+            android:id="@+id/action_navigation_chart_to_pieFragment"
+            app:destination="@id/pieFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_video"
+        android:name="com.leafmaple.androidtraining.ui.video.VideoFragment"
+        android:label="@string/title_video"
+        tools:layout="@layout/fragment_video" >
+        <action
+            android:id="@+id/action_navigation_video_to_videoDetailFragment"
+            app:destination="@id/videoDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_me"
+        android:name="com.leafmaple.androidtraining.ui.me.MeFragment"
+        android:label="@string/title_me"
+        tools:layout="@layout/fragment_me" >
+        <action
+            android:id="@+id/action_navigation_me_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_navigation_me_to_infoFragment"
+            app:destination="@id/infoFragment" />
+        <action
+            android:id="@+id/action_navigation_me_to_mapFragment"
+            app:destination="@id/mapFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pythonFragment"
+        android:name="com.leafmaple.androidtraining.ui.home.python.PythonFragment"
+        android:label="fragment_python"
+        tools:layout="@layout/fragment_python" />
+    <fragment
+        android:id="@+id/webFragment"
+        android:name="com.leafmaple.androidtraining.ui.home.web.WebFragment"
+        android:label="fragment_web"
+        tools:layout="@layout/fragment_web" >
+        <argument
+            android:name="url"
+            app:argType="string"
+            android:defaultValue="http://www.baidu.com" />
+    </fragment>
+    <fragment
+        android:id="@+id/lineFragment"
+        android:name="com.leafmaple.androidtraining.ui.chart.line.LineFragment"
+        android:label="fragment_line"
+        tools:layout="@layout/fragment_line" />
+    <fragment
+        android:id="@+id/barFragment"
+        android:name="com.leafmaple.androidtraining.ui.chart.bar.BarFragment"
+        android:label="fragment_bar"
+        tools:layout="@layout/fragment_bar" />
+    <fragment
+        android:id="@+id/pieFragment"
+        android:name="com.leafmaple.androidtraining.ui.chart.pie.PieFragment"
+        android:label="fragment_pie"
+        tools:layout="@layout/fragment_pie" />
+    <fragment
+        android:id="@+id/videoDetailFragment"
+        android:name="com.leafmaple.androidtraining.ui.video.detail.VideoDetailFragment"
+        android:label="fragment_video_detail"
+        tools:layout="@layout/fragment_video_detail" >
+        <argument
+            android:name="image"
+            app:argType="string" />
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <argument
+            android:name="intro"
+            app:argType="string" />
+        <argument
+            android:name="list"
+            app:argType="string[]" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.leafmaple.androidtraining.ui.me.user.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_findPassWordFragment"
+            app:destination="@id/findPassWordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.leafmaple.androidtraining.ui.me.user.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.leafmaple.androidtraining.ui.me.user.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" />
+    <fragment
+        android:id="@+id/findPassWordFragment"
+        android:name="com.leafmaple.androidtraining.ui.me.user.FindPassWordFragment"
+        android:label="fragment_find_pass_word"
+        tools:layout="@layout/fragment_find_pass_word" />
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.leafmaple.androidtraining.ui.me.map.MapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" />
+</navigation>

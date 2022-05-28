@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidProject/androidTraining2/app/src/main/res/drawable/skip_background.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/androidTraining2/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidProject/androidTraining2/app/src/main/res/layout/activity_splash.xml" value="0.4" />
+        <entry key="..\:/AndroidProject/androidTraining2/app/src/main/res/layout/banner_image_title_num.xml" value="0.11141304347826086" />
+        <entry key="..\:/AndroidProject/androidTraining2/app/src/main/res/layout/empty_home.xml" value="0.264" />
+        <entry key="..\:/AndroidProject/androidTraining2/app/src/main/res/layout/fragment_bar.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/androidTraining2/app/src/main/res/layout/fragment_blank.xml" value="0.12132725430597771" />
+        <entry key="..\:/AndroidProject/androidTraining2/app/src/main/res/layout/fragment_chart.xml" value="0.2" />
+        <entry key="..\:/AndroidProject/androidTraining2/app/src/main/res/layout/fragment_find_pass_word.xml" value="0.176" />
+        <entry key="..\:/AndroidProject/androidTraining2/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/androidTraining2/app/src/main/res/layout/fragment_info.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/androidTraining2/app/src/main/res/layout/fragment_line.xml" value="0.1403985507246377" />
+        <entry key="..\:/AndroidProject/androidTraining2/app/src/main/res/layout/fragment_login.xml" value="0.2" />
+        <entry key="..\:/AndroidProject/androidTraining2/app/src/main/res/layout/fragment_map.xml" value="0.25" />
+        <entry key="..\:/AndroidProject/androidTraining2/app/src/main/res/layout/fragment_me.xml" value="0.2" />
+        <entry key="..\:/AndroidProject/androidTraining2/app/src/main/res/layout/fragment_pie.xml" value="0.11372847011144883" />
+        <entry key="..\:/AndroidProject/androidTraining2/app/src/main/res/layout/fragment_python.xml" value="0.2" />
+        <entry key="..\:/AndroidProject/androidTraining2/app/src/main/res/layout/fragment_register.xml" value="0.1927710843373494" />
+        <entry key="..\:/AndroidProject/androidTraining2/app/src/main/res/layout/fragment_video.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidProject/androidTraining2/app/src/main/res/layout/fragment_video_detail.xml" value="0.22759856630824374" />
+        <entry key="..\:/AndroidProject/androidTraining2/app/src/main/res/layout/fragment_video_intro.xml" value="0.12771739130434784" />
+        <entry key="..\:/AndroidProject/androidTraining2/app/src/main/res/layout/fragment_video_list.xml" value="0.12771739130434784" />
+        <entry key="..\:/AndroidProject/androidTraining2/app/src/main/res/layout/fragment_web.xml" value="0.12132725430597771" />
+        <entry key="..\:/AndroidProject/androidTraining2/app/src/main/res/layout/header_home.xml" value="0.264" />
+        <entry key="..\:/AndroidProject/androidTraining2/app/src/main/res/layout/item_home1.xml" value="0.2" />
+        <entry key="..\:/AndroidProject/androidTraining2/app/src/main/res/layout/item_home2.xml" value="0.176" />
+        <entry key="..\:/AndroidProject/androidTraining2/app/src/main/res/layout/item_python.xml" value="0.2" />
+        <entry key="..\:/AndroidProject/androidTraining2/app/src/main/res/layout/item_video.xml" value="0.12132725430597771" />
+        <entry key="..\:/AndroidProject/androidTraining2/app/src/main/res/layout/item_video_list.xml" value="0.2" />
+        <entry key="..\:/AndroidProject/androidTraining2/app/src/main/res/menu/bottom_nav_menu.xml" value="0.24947916666666667" />
+        <entry key="..\:/AndroidProject/androidTraining2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/androidTraining2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
